@@ -6,15 +6,15 @@ This is where we hope to build community around AI bills of material (MLBOMs). I
   (1) A proposed minimum - or highly suggested - elements for MLBOMs (below)
   (2) Examples of MLBOMs in the `/examples` folder, which contain both MLBOM samples in existing formats (such as CycloneDX), as well as examples in our
       proposed / suggested format, which is based off of CycloneDX but has additional fields that they don't yet account for.
-
-
+<br>
+<br>
 
 ## Manifest BOM Working Community
 
 We are building a community of BOM (SBOM, MLBOM, etc.) practicioners who want to share best practices, challenges, and tools, and ultimately collaborate to promote the adoption and effectiveness of BOMs for technology transparency. Join us on our [Slack Community](https://join.slack.com/t/bomworkingcommunity/shared_invite/zt-26mocokw4-NkZfF2kevpmZjzkZh5bDxg). 
 
-
-
+<br>
+<br>
   
 ## Proposed MLBOM Model
 
