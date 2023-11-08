@@ -8,6 +8,11 @@ This is where we hope to build community around AI bills of material (MLBOMs). I
       proposed / suggested format, which is based off of CycloneDX but has additional fields that they don't yet account for.
 
 
+## Manifest BOM Working Community
+
+We are building a community of BOM (SBOM, MLBOM, etc.) practicioners who want to share best practices, challenges, and tools, and ultimately collaborate to promote the adoption and effectiveness of BOMs for technology transparency. Join us on our [Slack Community](https://join.slack.com/t/bomworkingcommunity/shared_invite/zt-26mocokw4-NkZfF2kevpmZjzkZh5bDxg). 
+
+
 ## Proposed MLBOM Model
 
 We analyzed the leading SBOM formats and various model card formats, and conducted extensive research with AI/ML experts and developers. Below is our initial proposed MLBOM model. No existing SBOM (CycloneDX or SPDX) or model card format perfectly matches the below content, so we acknowledge there is additional work needed with those communities to align & consolidate models.
