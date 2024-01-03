@@ -9,6 +9,12 @@ This is where we hope to build community around AI bills of material (MLBOMs). I
 <br>
 <br>
 
+## AIBOM / MLBOM White Paper
+After conducting research with dozens of AI/ML experts around the world, we started documenting our initial findings regarding the use cases, promises, and gaps for AIBOMs in a [white paper](https://www.manifestcyber.com/mlbom).
+
+<br>
+<br>
+
 ## Manifest BOM Working Community
 
 We are building a community of BOM (SBOM, MLBOM, etc.) practicioners who want to share best practices, challenges, and tools, and ultimately collaborate to promote the adoption and effectiveness of BOMs for technology transparency. Join us on our [Slack Community](https://join.slack.com/t/bomworkingcommunity/shared_invite/zt-26mocokw4-NkZfF2kevpmZjzkZh5bDxg). 
