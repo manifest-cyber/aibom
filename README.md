@@ -1,30 +1,30 @@
 <img src="cr@m.png" width="250" height="250">
 
-# Manifest MLBOM Wiki
+# Manifest AIBOM (MLBOM) Wiki
 
-This is where we hope to build community around AI bills of material (MLBOMs). In this repository, we have and maintain
-  (1) A proposed minimum - or highly suggested - elements for MLBOMs (below)
-  (2) Examples of MLBOMs in the `/examples` folder, which contain both MLBOM samples in existing formats (such as CycloneDX), as well as examples in our
+This is where we hope to build community around AI bills of material (AIBOMs). In this repository, we have and maintain
+  (1) A proposed minimum - or highly suggested - elements for AIBOMs (below)
+  (2) Examples of AIBOMs in the `/examples` folder, which contain both AIBOM samples in existing formats (such as CycloneDX), as well as examples in our
       proposed / suggested format, which is based off of CycloneDX but has additional fields that they don't yet account for.
 <br>
 <br>
 
 ## AIBOM / MLBOM White Paper
-After conducting research with dozens of AI/ML experts around the world, we started documenting our initial findings regarding the use cases, promises, and gaps for AIBOMs in a [white paper](https://www.manifestcyber.com/mlbom).
+After conducting research with dozens of AI/ML experts around the world, we started documenting our initial findings regarding the use cases, promises, and gaps for AIBOMs in a [white paper](https://www.manifestcyber.com/AIBOM).
 
 <br>
 <br>
 
 ## Manifest BOM Working Community
 
-We are building a community of BOM (SBOM, MLBOM, etc.) practicioners who want to share best practices, challenges, and tools, and ultimately collaborate to promote the adoption and effectiveness of BOMs for technology transparency. Join us on our [Slack Community](https://join.slack.com/t/bomworkingcommunity/shared_invite/zt-26mocokw4-NkZfF2kevpmZjzkZh5bDxg). 
+We are building a community of BOM (SBOM, AIBOM, etc.) practicioners who want to share best practices, challenges, and tools, and ultimately collaborate to promote the adoption and effectiveness of BOMs for technology transparency. Join us on our [Slack Community](https://join.slack.com/t/bomworkingcommunity/shared_invite/zt-26mocokw4-NkZfF2kevpmZjzkZh5bDxg). 
 
 <br>
 <br>
   
-## Proposed MLBOM Model
+## Proposed AIBOM Model
 
-We analyzed the leading SBOM formats and various model card formats, and conducted extensive research with AI/ML experts and developers. Below is our initial proposed MLBOM model. No existing SBOM (CycloneDX or SPDX) or model card format perfectly matches the below content, so we acknowledge there is additional work needed with those communities to align & consolidate models.
+We analyzed the leading SBOM formats and various model card formats, and conducted extensive research with AI/ML experts and developers. Below is our initial proposed AIBOM model. No existing SBOM (CycloneDX or SPDX) or model card format perfectly matches the below content, so we acknowledge there is additional work needed with those communities to align & consolidate models.
 
 ### Model Details
 
@@ -112,4 +112,4 @@ Any information around ethical considerations, known or potential biases, or lim
 ### Attestations
 
 **Attestation**  [Optional]
-A digital signature, signed by the developer of the model, to ensure the authenticity and integrity of the given MLBOM (i.e. that it was created by the model developr, and hasn't been altered).
+A digital signature, signed by the developer of the model, to ensure the authenticity and integrity of the given AIBOM (i.e. that it was created by the model developr, and hasn't been altered).
