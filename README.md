@@ -10,7 +10,7 @@ This is where we hope to build community around AI bills of material (AIBOMs). I
 <br>
 
 ## AIBOM / MLBOM White Paper
-After conducting research with dozens of AI/ML experts around the world, we started documenting our initial findings regarding the use cases, promises, and gaps for AIBOMs in a [white paper](https://www.manifestcyber.com/AIBOM).
+After conducting research with dozens of AI/ML experts around the world, we started documenting our initial findings regarding the use cases, promises, and gaps for AIBOMs in a [white paper](https://www.manifestcyber.com/aibom).
 
 <br>
 <br>
