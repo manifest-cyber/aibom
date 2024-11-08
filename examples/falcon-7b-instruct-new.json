@@ -1,0 +1,577 @@
+Generating BOM for Hugging Face object: tiiuae/falcon-7b-instruct
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:3f8d247b-80e9-406a-8e94-cb8248cfb16e",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-11-08T15:52:23-05:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "Manifest Cyber",
+          "publisher": "Manifest Cyber",
+          "name": "aibom-gen",
+          "version": "main",
+          "description": "Email info@manifestcyber.com for more information about this tool."
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607",
+      "type": "machine-learning-model",
+      "supplier": {
+        "name": "tiiuae"
+      },
+      "name": "tiiuae/falcon-7b-instruct",
+      "version": "8782b5c5d8c9290412416618f36a133653e85285",
+      "licenses": [
+        {
+          "license": {
+            "id": "apache-2.0"
+          }
+        }
+      ],
+      "pedigree": {},
+      "externalReferences": [
+        {
+          "url": "https://huggingface.co/tiiuae/falcon-7b-instruct",
+          "type": "model-card"
+        },
+        {
+          "url": "https://huggingface.co/tiiuae/falcon-7b-instruct",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "createdAt",
+          "value": "2023-04-25T06:21:01.000Z"
+        },
+        {
+          "name": "lastModified",
+          "value": "2024-10-12T13:20:03.000Z"
+        },
+        {
+          "name": "downloads",
+          "value": "167867"
+        },
+        {
+          "name": "likes",
+          "value": "918"
+        },
+        {
+          "name": "libraryName",
+          "value": "transformers"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": ".gitattributes-24-11-08_15:52:23",
+          "type": "file",
+          "name": ".gitattributes"
+        },
+        {
+          "bom-ref": "readme.md-24-11-08_15:52:23",
+          "type": "file",
+          "name": "README.md"
+        },
+        {
+          "bom-ref": "config.json-24-11-08_15:52:23",
+          "type": "file",
+          "name": "config.json"
+        },
+        {
+          "bom-ref": "configuration_falcon.py-24-11-08_15:52:23",
+          "type": "file",
+          "name": "configuration_falcon.py"
+        },
+        {
+          "bom-ref": "coreml-text-generation-falcon-7b-64-float32.mlpackage-data-com.apple.coreml-model.mlmodel-24-11-08_15:52:23",
+          "type": "file",
+          "name": "coreml/text-generation/falcon-7b-64-float32.mlpackage/Data/com.apple.CoreML/model.mlmodel"
+        },
+        {
+          "bom-ref": "coreml-text-generation-falcon-7b-64-float32.mlpackage-data-com.apple.coreml-weights-weight.bin-24-11-08_15:52:23",
+          "type": "file",
+          "name": "coreml/text-generation/falcon-7b-64-float32.mlpackage/Data/com.apple.CoreML/weights/weight.bin"
+        },
+        {
+          "bom-ref": "coreml-text-generation-falcon-7b-64-float32.mlpackage-manifest.json-24-11-08_15:52:23",
+          "type": "file",
+          "name": "coreml/text-generation/falcon-7b-64-float32.mlpackage/Manifest.json"
+        },
+        {
+          "bom-ref": "generation_config.json-24-11-08_15:52:23",
+          "type": "file",
+          "name": "generation_config.json"
+        },
+        {
+          "bom-ref": "handler.py-24-11-08_15:52:23",
+          "type": "file",
+          "name": "handler.py"
+        },
+        {
+          "bom-ref": "model-00001-of-00002.safetensors-24-11-08_15:52:23",
+          "type": "file",
+          "name": "model-00001-of-00002.safetensors"
+        },
+        {
+          "bom-ref": "model-00002-of-00002.safetensors-24-11-08_15:52:23",
+          "type": "file",
+          "name": "model-00002-of-00002.safetensors"
+        },
+        {
+          "bom-ref": "model.safetensors.index.json-24-11-08_15:52:23",
+          "type": "file",
+          "name": "model.safetensors.index.json"
+        },
+        {
+          "bom-ref": "modeling_falcon.py-24-11-08_15:52:23",
+          "type": "file",
+          "name": "modeling_falcon.py"
+        },
+        {
+          "bom-ref": "pytorch_model-00001-of-00002.bin-24-11-08_15:52:23",
+          "type": "file",
+          "name": "pytorch_model-00001-of-00002.bin"
+        },
+        {
+          "bom-ref": "pytorch_model-00002-of-00002.bin-24-11-08_15:52:23",
+          "type": "file",
+          "name": "pytorch_model-00002-of-00002.bin"
+        },
+        {
+          "bom-ref": "pytorch_model.bin.index.json-24-11-08_15:52:23",
+          "type": "file",
+          "name": "pytorch_model.bin.index.json"
+        },
+        {
+          "bom-ref": "special_tokens_map.json-24-11-08_15:52:23",
+          "type": "file",
+          "name": "special_tokens_map.json"
+        },
+        {
+          "bom-ref": "tokenizer.json-24-11-08_15:52:23",
+          "type": "file",
+          "name": "tokenizer.json"
+        },
+        {
+          "bom-ref": "tokenizer_config.json-24-11-08_15:52:23",
+          "type": "file",
+          "name": "tokenizer_config.json"
+        },
+        {
+          "bom-ref": "tiiuae-falcon-refinedweb-24-11-08_15:52:23",
+          "type": "data",
+          "author": "tiiuae",
+          "name": "tiiuae/falcon-refinedweb",
+          "version": "c735840575b629292b41da8dde11dcd523d4f91c",
+          "description": "\n\t\n\t\t\n\t\n\t\n\t\t📀 Falcon RefinedWeb\n\t\n\nFalcon RefinedWeb is a massive English web dataset built by TII and released under an ODC-By 1.0 license.\nSee the 📓 paper on arXiv for more details. \nRefinedWeb is built through stringent filtering and large-scale deduplication of CommonCrawl; we found models trained on RefinedWeb to achieve performance in-line or better than models trained on curated datasets, while only relying on web data. \nRefinedWeb is also \"multimodal-friendly\": it contains links and… See the full description on the dataset page: https://huggingface.co/datasets/tiiuae/falcon-refinedweb.",
+          "licenses": [
+            {
+              "license": {
+                "id": "odc-by"
+              }
+            }
+          ],
+          "externalReferences": [
+            {
+              "url": "https://huggingface.co/datasets/tiiuae/falcon-refinedweb",
+              "type": "website"
+            }
+          ],
+          "properties": [
+            {
+              "name": "createdAt",
+              "value": "2023-05-07T14:57:27.000Z"
+            },
+            {
+              "name": "lastModified",
+              "value": "2023-06-20T12:38:07.000Z"
+            },
+            {
+              "name": "downloads",
+              "value": "27420"
+            },
+            {
+              "name": "likes",
+              "value": "809"
+            }
+          ]
+        }
+      ],
+      "modelCard": {
+        "modelParameters": {
+          "task": "text-generation",
+          "architectureFamily": "falcon",
+          "modelArchitecture": "FalconForCausalLM",
+          "datasets": [
+            {
+              "type": "dataset",
+              "name": "falcon-refinedweb",
+              "contents": {
+                "url": "https://huggingface.co/datasets/tiiuae/falcon-refinedweb"
+              },
+              "classification": "public"
+            }
+          ]
+        },
+        "quantitativeAnalysis": {},
+        "considerations": {}
+      }
+    }
+  },
+  "annotations": [
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/ybelkada"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"ybelkada\",\"fullName\":\"Younes Belkada\",\"communityScore\":728,\"organizations\":[\"bigscience\",\"RWKV\",\"bigscience-data\",\"trl-internal-testing\",\"tiiuae\",\"HFLAY\",\"bigcode\",\"CarperAI\",\"polytechXhf\",\"uwnlp\",\"alignment-handbook\",\"Falcon71\",\"zero-gpu-explorers\",\"ruliadai\",\"quanto-lib\",\"test-yblk\",\"llava-hf\",\"PEFT\",\"mx-test\",\"Tii-Internal-eval\",\"social-post-explorers\",\"hsramall\",\"tmp-m-test\",\"HF-Party\",\"TII-Frontier-Team\"],\"models\":[\"ybelkada/t5-3b-sharded\",\"ybelkada/test-gguf-trainer-Q8_0-GGUF\",\"ybelkada/test-gguf-trainer\",\"ybelkada/tiny-random-llama-Q6_K-GGUF\",\"ybelkada/test-gguf-trainer-Q4_K_M-GGUF\",\"ybelkada/tiny-random-llama-Q4_K_M-GGUF\",\"ybelkada/tiny-random-llama\",\"ybelkada/TinyLlama-1.1B-Chat-v1.0-Q4_0-GGUF\",\"ybelkada/test-llava-13b\",\"ybelkada/blip-image-captioning-base-football-finetuned\",\"ybelkada/falcon-7b-sharded-bf16\",\"ybelkada/pix2struct-base-football\",\"ybelkada/mistral-7b-instruct-v0.1-sharded\",\"ybelkada/gpt2-xl-8bit\",\"ybelkada/stable-diffusion-v1-5\",\"ybelkada/test-automatic-tagging-from-trainer\",\"ybelkada/test-automatic-tagging\",\"ybelkada/test-bert-tags\",\"ybelkada/test-tiny-llama-unsloth\",\"ybelkada/test-empty-model-case\",\"ybelkada/Mixtral-8x7B-Instruct-v0.1-bnb-4bit\",\"ybelkada/test-dynamic-model-with-tags\",\"ybelkada/chatglm3-6b-hf\",\"ybelkada/test-model-already-tagged\",\"ybelkada/test-tag-already-tagged\",\"ybelkada/test-tags-model-2\",\"ybelkada/test-tags-model\",\"ybelkada/test-readme\",\"ybelkada/test-axolotl-reloratrainer\",\"ybelkada/test-axolotl-onecyclelrschedulertrainer\",\"ybelkada/test-axolotl-axolotlmambatrainer\",\"ybelkada/test-axolotl-axolotltrainer\",\"ybelkada/test-axolotl\",\"ybelkada/segment-anything\",\"ybelkada/test-ddpo-tag\",\"ybelkada/test-ppo-tag\",\"ybelkada/test-multi-tag-unsloth\",\"ybelkada/test-multi-tag\",\"ybelkada/out-test\",\"ybelkada/Mixtral-8x7B-Instruct-v0.1-AWQ\",\"ybelkada/llava-1.5-7b-hf-awq\",\"ybelkada/vip-llava-raw-state-dicts\",\"ybelkada/llama-7b-qlora-ultrachat-2\",\"ybelkada/efficientSAM-test\",\"ybelkada/fuyu-8b-sharded\",\"ybelkada/bakllava-original\",\"ybelkada/llava-1.5-7b\",\"ybelkada/llama-7b-qlora-ultrachat\",\"ybelkada/llama-7b-qlora-guanaco-final\",\"ybelkada/opt-125m-quantized-dlai\",\"ybelkada/test-llava-1.5\",\"ybelkada/llama-7b-qlora-guanaco\",\"ybelkada/fine-tuned-llama-guanaco\",\"ybelkada/llama-7b-guanaco\",\"ybelkada/lora-trained-xl\",\"ybelkada/tiny-random-LlamaForCausalLM-GQA\",\"ybelkada/test-pokemon-lora-sdxl-with-text-encoder\",\"ybelkada/test-lora-pokemon\",\"ybelkada/llama-xformers\",\"ybelkada/opt-125m-awq\",\"ybelkada/test-ahi-civitai\",\"ybelkada/test-mistral-7b-v0.1-awq\",\"ybelkada/vicuna-7b-awq-test-2\",\"ybelkada/vicuna-7b-1.5-awq\",\"ybelkada/mistral-7b-instruct-v0.1-sharded-2\",\"ybelkada/test-falcon-st\",\"ybelkada/codellama-13b-personal-copilot-fa2\",\"ybelkada/sd-1.5-pokemon-lora-peft\",\"ybelkada/Mistral-7B-v0.1-bf16-sharded\",\"ybelkada/japanese-novel-gpt-j-6b-sharded\",\"ybelkada/diffusers-notebook\",\"ybelkada/mistral-7b-guanaco\",\"ybelkada/mistral-tokenizer\",\"ybelkada/tiny-clip-text\",\"ybelkada/pix2struct-base-clover-lora\",\"ybelkada/opt-125m-gptq-4bit\",\"ybelkada/opt-350m-gptq-4bit\",\"ybelkada/scratch-repo\",\"ybelkada/opt-350m-adalora\",\"ybelkada/opt-350m-ia3\",\"ybelkada/llama-7b-GPTQ-test\",\"ybelkada/mpt-7b-guanaco-qlora\",\"ybelkada/mpt-7b-bf16-sharded\",\"ybelkada/opt-13b-corrected-state-dict\",\"ybelkada/whisper-lora-test-auto-mapping\",\"ybelkada/mpt-7b-transformers\",\"ybelkada/opt-350m-lora\",\"ybelkada/umt5-small\",\"ybelkada/falcon-7b-sharded\",\"ybelkada/falcon-40b-guanaco-lora\",\"ybelkada/falcon-7b-guanaco-lora\",\"ybelkada/dolly-adapter-test\",\"ybelkada/gpt-neo-x-20b-sharded-bf16\",\"ybelkada/udop-large\",\"ybelkada/vit-base-patch16-224-in21k-finetuned-lora-food101\",\"ybelkada/bloom-1b7-8bit\",\"ybelkada/blip2-opt-2.7b-football-captions-adapters\",\"ybelkada/bloom-560m-8bit\",\"ybelkada/blip2-opt-2.7b-fp16-sharded\",\"ybelkada/blip2-opt-6.7b-football-captions-adapters\",\"ybelkada/blip2-opt-6.7b-fp16-sharded\",\"ybelkada/tiny-random-T5ForConditionalGeneration-calibrated\",\"ybelkada/custom-images\",\"ybelkada/papers\",\"ybelkada/clap-model-card\",\"ybelkada/flan-t5-xxl-lora-samsum\",\"ybelkada/fonts\",\"ybelkada/gpt-j-6b-detoxified-20shdl\",\"ybelkada/gpt-j-6b-detox\",\"ybelkada/hubert-tiny-random\",\"ybelkada/tiny-wav2vec2-stable-ln\",\"ybelkada/gpt-neo-2.7B-sharded-bf16\",\"ybelkada/gpt-neo-125m-detoxified-long-context\",\"ybelkada/gpt-neo-125m-detox\",\"ybelkada/gpt-neo-2.7B-detox\",\"ybelkada/bertin-gpt-j-6B-bf-16-sharded\",\"ybelkada/gpt-j-6b-sharded-bf16\",\"ybelkada/gpt-j-6b-detoxified-24-shdl-400steps\",\"ybelkada/flan-t5-xl-financial-phrasebank-lora\",\"ybelkada/flan-t5-xl-sharded-bf16\",\"ybelkada/gpt-neo-2B-detoxified-20sh-30steps\",\"ybelkada/flan-t5-large-financial-phrasebank-lora\",\"ybelkada/clap-fused-htsat\",\"ybelkada/test-pix2struct-tokenizer\",\"ybelkada/opt-6.7b-lora\",\"ybelkada/test-opt-lora\",\"ybelkada/test-opt-lora-2\",\"ybelkada/gpt2-sentiment-ppo\",\"ybelkada/gpt2-ppo-scratch\",\"ybelkada/test-blip-processor\",\"ybelkada/test-tokenizer\",\"ybelkada/vit_base_r50_s16_384\",\"ybelkada/tiny-random-flava\",\"ybelkada/tiny-mobilebertmodel\",\"ybelkada/random-tiny-BertGenerationModel\",\"ybelkada/switch-base-8-xsum\",\"ybelkada/t5-11b-sharded\",\"ybelkada/t5-v1_1-xl-sharded\",\"ybelkada/japanese-dummy-tokenizer\",\"ybelkada/opt-125m-debug\",\"ybelkada/focusondepth\",\"ybelkada/japanese-roberta-question-answering\",\"ybelkada/dummy-repo\"],\"datasets\":[\"ybelkada/model_cards_correct_tag\",\"ybelkada/model-info-library-name\",\"ybelkada/test-model-info-library-name\",\"ybelkada/documentation-images\",\"ybelkada/oasst1-tiny-subset\",\"ybelkada/oasst1\",\"ybelkada/food101-tiny\",\"ybelkada/test-onepiece-dataset\",\"ybelkada/common_voice_mr_11_0_copy\",\"ybelkada/english_quotes_copy\",\"ybelkada/football-dataset\",\"ybelkada/test-dataset\"],\"num_followers\":407,\"twitter\":\"younesbelkada\",\"github\":\"younesbelkada\",\"website\":\"\"}"
+    },
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/SFconvertbot"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"SFconvertbot\",\"fullName\":\"Safetensors convertbot\",\"communityScore\":47813,\"organizations\":[\"safetensors\"],\"models\":null,\"datasets\":null,\"num_followers\":45,\"twitter\":\"\",\"github\":\"\",\"website\":\"\"}"
+    },
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/ybelkada"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"ybelkada\",\"fullName\":\"Younes Belkada\",\"communityScore\":728,\"organizations\":[\"bigscience\",\"RWKV\",\"bigscience-data\",\"trl-internal-testing\",\"tiiuae\",\"HFLAY\",\"bigcode\",\"CarperAI\",\"polytechXhf\",\"uwnlp\",\"alignment-handbook\",\"Falcon71\",\"zero-gpu-explorers\",\"ruliadai\",\"quanto-lib\",\"test-yblk\",\"llava-hf\",\"PEFT\",\"mx-test\",\"Tii-Internal-eval\",\"social-post-explorers\",\"hsramall\",\"tmp-m-test\",\"HF-Party\",\"TII-Frontier-Team\"],\"models\":[\"ybelkada/t5-3b-sharded\",\"ybelkada/test-gguf-trainer-Q8_0-GGUF\",\"ybelkada/test-gguf-trainer\",\"ybelkada/tiny-random-llama-Q6_K-GGUF\",\"ybelkada/test-gguf-trainer-Q4_K_M-GGUF\",\"ybelkada/tiny-random-llama-Q4_K_M-GGUF\",\"ybelkada/tiny-random-llama\",\"ybelkada/TinyLlama-1.1B-Chat-v1.0-Q4_0-GGUF\",\"ybelkada/test-llava-13b\",\"ybelkada/blip-image-captioning-base-football-finetuned\",\"ybelkada/falcon-7b-sharded-bf16\",\"ybelkada/pix2struct-base-football\",\"ybelkada/mistral-7b-instruct-v0.1-sharded\",\"ybelkada/gpt2-xl-8bit\",\"ybelkada/stable-diffusion-v1-5\",\"ybelkada/test-automatic-tagging-from-trainer\",\"ybelkada/test-automatic-tagging\",\"ybelkada/test-bert-tags\",\"ybelkada/test-tiny-llama-unsloth\",\"ybelkada/test-empty-model-case\",\"ybelkada/Mixtral-8x7B-Instruct-v0.1-bnb-4bit\",\"ybelkada/test-dynamic-model-with-tags\",\"ybelkada/chatglm3-6b-hf\",\"ybelkada/test-model-already-tagged\",\"ybelkada/test-tag-already-tagged\",\"ybelkada/test-tags-model-2\",\"ybelkada/test-tags-model\",\"ybelkada/test-readme\",\"ybelkada/test-axolotl-reloratrainer\",\"ybelkada/test-axolotl-onecyclelrschedulertrainer\",\"ybelkada/test-axolotl-axolotlmambatrainer\",\"ybelkada/test-axolotl-axolotltrainer\",\"ybelkada/test-axolotl\",\"ybelkada/segment-anything\",\"ybelkada/test-ddpo-tag\",\"ybelkada/test-ppo-tag\",\"ybelkada/test-multi-tag-unsloth\",\"ybelkada/test-multi-tag\",\"ybelkada/out-test\",\"ybelkada/Mixtral-8x7B-Instruct-v0.1-AWQ\",\"ybelkada/llava-1.5-7b-hf-awq\",\"ybelkada/vip-llava-raw-state-dicts\",\"ybelkada/llama-7b-qlora-ultrachat-2\",\"ybelkada/efficientSAM-test\",\"ybelkada/fuyu-8b-sharded\",\"ybelkada/bakllava-original\",\"ybelkada/llava-1.5-7b\",\"ybelkada/llama-7b-qlora-ultrachat\",\"ybelkada/llama-7b-qlora-guanaco-final\",\"ybelkada/opt-125m-quantized-dlai\",\"ybelkada/test-llava-1.5\",\"ybelkada/llama-7b-qlora-guanaco\",\"ybelkada/fine-tuned-llama-guanaco\",\"ybelkada/llama-7b-guanaco\",\"ybelkada/lora-trained-xl\",\"ybelkada/tiny-random-LlamaForCausalLM-GQA\",\"ybelkada/test-pokemon-lora-sdxl-with-text-encoder\",\"ybelkada/test-lora-pokemon\",\"ybelkada/llama-xformers\",\"ybelkada/opt-125m-awq\",\"ybelkada/test-ahi-civitai\",\"ybelkada/test-mistral-7b-v0.1-awq\",\"ybelkada/vicuna-7b-awq-test-2\",\"ybelkada/vicuna-7b-1.5-awq\",\"ybelkada/mistral-7b-instruct-v0.1-sharded-2\",\"ybelkada/test-falcon-st\",\"ybelkada/codellama-13b-personal-copilot-fa2\",\"ybelkada/sd-1.5-pokemon-lora-peft\",\"ybelkada/Mistral-7B-v0.1-bf16-sharded\",\"ybelkada/japanese-novel-gpt-j-6b-sharded\",\"ybelkada/diffusers-notebook\",\"ybelkada/mistral-7b-guanaco\",\"ybelkada/mistral-tokenizer\",\"ybelkada/tiny-clip-text\",\"ybelkada/pix2struct-base-clover-lora\",\"ybelkada/opt-125m-gptq-4bit\",\"ybelkada/opt-350m-gptq-4bit\",\"ybelkada/scratch-repo\",\"ybelkada/opt-350m-adalora\",\"ybelkada/opt-350m-ia3\",\"ybelkada/llama-7b-GPTQ-test\",\"ybelkada/mpt-7b-guanaco-qlora\",\"ybelkada/mpt-7b-bf16-sharded\",\"ybelkada/opt-13b-corrected-state-dict\",\"ybelkada/whisper-lora-test-auto-mapping\",\"ybelkada/mpt-7b-transformers\",\"ybelkada/opt-350m-lora\",\"ybelkada/umt5-small\",\"ybelkada/falcon-7b-sharded\",\"ybelkada/falcon-40b-guanaco-lora\",\"ybelkada/falcon-7b-guanaco-lora\",\"ybelkada/dolly-adapter-test\",\"ybelkada/gpt-neo-x-20b-sharded-bf16\",\"ybelkada/udop-large\",\"ybelkada/vit-base-patch16-224-in21k-finetuned-lora-food101\",\"ybelkada/bloom-1b7-8bit\",\"ybelkada/blip2-opt-2.7b-football-captions-adapters\",\"ybelkada/bloom-560m-8bit\",\"ybelkada/blip2-opt-2.7b-fp16-sharded\",\"ybelkada/blip2-opt-6.7b-football-captions-adapters\",\"ybelkada/blip2-opt-6.7b-fp16-sharded\",\"ybelkada/tiny-random-T5ForConditionalGeneration-calibrated\",\"ybelkada/custom-images\",\"ybelkada/papers\",\"ybelkada/clap-model-card\",\"ybelkada/flan-t5-xxl-lora-samsum\",\"ybelkada/fonts\",\"ybelkada/gpt-j-6b-detoxified-20shdl\",\"ybelkada/gpt-j-6b-detox\",\"ybelkada/hubert-tiny-random\",\"ybelkada/tiny-wav2vec2-stable-ln\",\"ybelkada/gpt-neo-2.7B-sharded-bf16\",\"ybelkada/gpt-neo-125m-detoxified-long-context\",\"ybelkada/gpt-neo-125m-detox\",\"ybelkada/gpt-neo-2.7B-detox\",\"ybelkada/bertin-gpt-j-6B-bf-16-sharded\",\"ybelkada/gpt-j-6b-sharded-bf16\",\"ybelkada/gpt-j-6b-detoxified-24-shdl-400steps\",\"ybelkada/flan-t5-xl-financial-phrasebank-lora\",\"ybelkada/flan-t5-xl-sharded-bf16\",\"ybelkada/gpt-neo-2B-detoxified-20sh-30steps\",\"ybelkada/flan-t5-large-financial-phrasebank-lora\",\"ybelkada/clap-fused-htsat\",\"ybelkada/test-pix2struct-tokenizer\",\"ybelkada/opt-6.7b-lora\",\"ybelkada/test-opt-lora\",\"ybelkada/test-opt-lora-2\",\"ybelkada/gpt2-sentiment-ppo\",\"ybelkada/gpt2-ppo-scratch\",\"ybelkada/test-blip-processor\",\"ybelkada/test-tokenizer\",\"ybelkada/vit_base_r50_s16_384\",\"ybelkada/tiny-random-flava\",\"ybelkada/tiny-mobilebertmodel\",\"ybelkada/random-tiny-BertGenerationModel\",\"ybelkada/switch-base-8-xsum\",\"ybelkada/t5-11b-sharded\",\"ybelkada/t5-v1_1-xl-sharded\",\"ybelkada/japanese-dummy-tokenizer\",\"ybelkada/opt-125m-debug\",\"ybelkada/focusondepth\",\"ybelkada/japanese-roberta-question-answering\",\"ybelkada/dummy-repo\"],\"datasets\":[\"ybelkada/model_cards_correct_tag\",\"ybelkada/model-info-library-name\",\"ybelkada/test-model-info-library-name\",\"ybelkada/documentation-images\",\"ybelkada/oasst1-tiny-subset\",\"ybelkada/oasst1\",\"ybelkada/food101-tiny\",\"ybelkada/test-onepiece-dataset\",\"ybelkada/common_voice_mr_11_0_copy\",\"ybelkada/english_quotes_copy\",\"ybelkada/football-dataset\",\"ybelkada/test-dataset\"],\"num_followers\":407,\"twitter\":\"younesbelkada\",\"github\":\"younesbelkada\",\"website\":\"\"}"
+    },
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/nilabhra"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"nilabhra\",\"fullName\":\"Nilabhra Roy Chowdhury\",\"communityScore\":12,\"organizations\":[\"Falcon71\",\"ruliadai\",\"bluorion\"],\"models\":null,\"datasets\":null,\"num_followers\":10,\"twitter\":\"nilabhraroy\",\"github\":\"Nilabhra\",\"website\":\"\"}"
+    },
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/epignatelli"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"epignatelli\",\"fullName\":\"Eduardo Pignatelli\",\"communityScore\":8,\"organizations\":[\"UCL-CS\"],\"models\":null,\"datasets\":null,\"num_followers\":0,\"twitter\":\"edupignatelli\",\"github\":\"epignatelli\",\"website\":\"https://epignatelli.com\"}"
+    },
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/Rocketknight1"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"Rocketknight1\",\"fullName\":\"Matthew Carrigan\",\"communityScore\":207,\"organizations\":[\"huggingface\",\"hf4h\",\"tf-tpu\",\"hf-internal-testing\",\"huggingface-course\",\"keras-io\",\"EuroPython2022\",\"LongSafari\",\"Striping\",\"hsramall\",\"discord-community\",\"llhf\",\"sllhf\"],\"models\":[\"Rocketknight1/tiny-gpt2-with-mistral-tool-template\",\"Rocketknight1/evo-1k-test\",\"Rocketknight1/dbrx-tiny-random\",\"Rocketknight1/tiny-multi-template-test\",\"Rocketknight1/tiny-random-gpt2-bfloat16-pt\",\"Rocketknight1/tiny-random-gpt2-bfloat16\",\"Rocketknight1/hyenadna-tiny-1k-seqlen-d256-hf-finetuned-human-enhancers\",\"Rocketknight1/hyenadna-tiny-1k-seqlen-hf-finetuned-human-enhancers\",\"Rocketknight1/tiny-random-falcon-7b\",\"Rocketknight1/tiny-random-falcon-40b\",\"Rocketknight1/falcon-rw-1b\",\"Rocketknight1/falcon-7b\",\"Rocketknight1/falcon-40b\",\"Rocketknight1/vit-base-patch16-224-in21k-finetuned-image-classification\",\"Rocketknight1/esm2_t30_150M_UR50D-finetuned-localization\",\"Rocketknight1/clip-roberta-coco\",\"Rocketknight1/clip-roberta-finetuned\",\"Rocketknight1/tiny-random-deit-tf\",\"Rocketknight1/tiny-random-clip-tf\",\"Rocketknight1/my_food_classifier\",\"Rocketknight1/my_awesome_wnut_model\",\"Rocketknight1/esm2_t6_8M_UR50D\",\"Rocketknight1/contact_head_test\",\"Rocketknight1/contact_prediction_test\",\"Rocketknight1/esm2_t12_35M_UR50D-finetuned-secondary-structure-classification\",\"Rocketknight1/esm2_t12_35M_UR50D-finetuned-cytosol-membrane-classification\",\"Rocketknight1/esm2_t12_35M_UR50D-finetuned-secondary-structure\",\"Rocketknight1/esm2_t12_35M_UR50D-finetuned-localization\",\"Rocketknight1/esm1b_t33_650M_UR50S\",\"Rocketknight1/esm1v_t33_650M_UR90S_5\",\"Rocketknight1/esm1v_t33_650M_UR90S_4\",\"Rocketknight1/esm1v_t33_650M_UR90S_3\",\"Rocketknight1/esm1v_t33_650M_UR90S_2\",\"Rocketknight1/esm1v_t33_650M_UR90S_1\",\"Rocketknight1/esm2_t48_15B_UR50D\",\"Rocketknight1/esm2_t36_3B_UR50D\",\"Rocketknight1/esm2_t33_650M_UR50D\",\"Rocketknight1/esm2_t30_150M_UR50D\",\"Rocketknight1/esm2_t12_35M_UR50D\",\"Rocketknight1/temp_upload_test\",\"Rocketknight1/mt5-small-finetuned-amazon-en-es\",\"Rocketknight1/distilbert-base-uncased-finetuned-imdb\",\"Rocketknight1/bert-finetuned-ner\",\"Rocketknight1/esm2_t30_150M_UR50D-finetuned-secondary-structure\",\"Rocketknight1/esm2_t6_8M_UR50D-finetuned-localization\",\"Rocketknight1/student_marian_en_ro_6_1\",\"Rocketknight1/distilbert-base-uncased-finetuned-cola\",\"Rocketknight1/opus-mt-en-ROMANCE-finetuned-en-to-ro\",\"Rocketknight1/distilbert-base-uncased-finetuned-ner\",\"Rocketknight1/distilbert-base-uncased-finetuned-squad\",\"Rocketknight1/bert-base-cased-finetuned-swag\",\"Rocketknight1/bert-base-cased-finetuned-wikitext2\",\"Rocketknight1/gpt2-finetuned-wikitext2\",\"Rocketknight1/europython-imdb-distilbert\",\"Rocketknight1/bert-dummy-seq\",\"Rocketknight1/europython-imdb\",\"Rocketknight1/temp-colab-upload-test2\",\"Rocketknight1/bert-base-uncased-finetuned-swag\",\"Rocketknight1/temp-colab-upload-test4\",\"Rocketknight1/temp-colab-upload-test3\",\"Rocketknight1/temp-colab-upload-test\",\"Rocketknight1/test_upload_model2\",\"Rocketknight1/test_upload_model\",\"Rocketknight1/distilgpt2-finetuned-wikitext2\",\"Rocketknight1/t5-small-finetuned-xsum\",\"Rocketknight1/distilroberta-base-finetuned-wikitext2\",\"Rocketknight1/marian-finetuned-kde4-en-to-fr\",\"Rocketknight1/transformers-qa\",\"Rocketknight1/gbert-base-germaner\",\"Rocketknight1/test-model-tf\",\"Rocketknight1/model_card_test2\",\"Rocketknight1/model-card-callback-test-new\",\"Rocketknight1/model_card_test\",\"Rocketknight1/model-card-test\",\"Rocketknight1/test-repo\",\"Rocketknight1/callback_test\",\"Rocketknight1/checkpoint_test\",\"Rocketknight1/bert-fine-tuned-cola\",\"Rocketknight1/test-marian-finetuned-kde4-en-to-fr\",\"Rocketknight1/bert-finetuned-qa\",\"Rocketknight1/test-bert-finetuned-ner\",\"Rocketknight1/distilbert-base-cased-finetuned-imdb\",\"Rocketknight1/bert-base-cased-finetuned-imdb\",\"Rocketknight1/codeparrot-ds\",\"Rocketknight1/test_callback_upload\",\"Rocketknight1/gpt2-wikitext2\"],\"datasets\":[\"Rocketknight1/leela_training_data\"],\"num_followers\":166,\"twitter\":\"carrigmat\",\"github\":\"Rocketknight1\",\"website\":\"\"}"
+    },
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/sgugger"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"sgugger\",\"fullName\":\"Sylvain Gugger\",\"communityScore\":252,\"organizations\":[\"funnel-transformer\",\"amazon-sagemaker-community\",\"RWKV\",\"fastai\",\"Team8\",\"hf-tiny-model-private\",\"bigcode\"],\"models\":[\"sgugger/push-to-hub-test-2\",\"sgugger/finetuned-bert\",\"sgugger/bert-finetuned-mrpc\",\"sgugger/rwkv-7b-pile\",\"sgugger/rwkv-430M-pile\",\"sgugger/pair-classification-tool\",\"sgugger/finetuned-bert-mrpc\",\"sgugger/distilbert-base-uncased-finetuned-cola\",\"sgugger/glue-mrpc\",\"sgugger/test-upload\",\"sgugger/test-dynamic-pipeline\",\"sgugger/sharded-gpt-j-6B\",\"sgugger/test-bert-sharded\",\"sgugger/bert-sharded\",\"sgugger/custom-resnet50d\",\"sgugger/custom-resnet\",\"sgugger/roberta-base-finetuned-squad\",\"sgugger/test-upload1\",\"sgugger/debug-example2\",\"sgugger/resnet50d\",\"sgugger/bert-fine-tuned-cola\",\"sgugger/my-bert-model\",\"sgugger/marian-finetuned-kde4-en-to-fr\",\"sgugger/marian-en-to-fr\",\"sgugger/test-ner\",\"sgugger/my-finetuned-bert-mprc\",\"sgugger/tiny-distilbert-classification\",\"sgugger/code-search-net-tokenizer\",\"sgugger/esberto-small\",\"sgugger/bert-like-tokenizer\",\"sgugger/gpt2-like-tokenizer\",\"sgugger/my-new-shiny-tokenizer\",\"sgugger/funnel-random-tiny\"],\"datasets\":null,\"num_followers\":184,\"twitter\":\"\",\"github\":\"sgugger\",\"website\":\"\"}"
+    },
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/FalconLLM"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"FalconLLM\",\"fullName\":\"Falcon LLM TII UAE\",\"communityScore\":112,\"organizations\":[\"tiiuae\"],\"models\":null,\"datasets\":null,\"num_followers\":92,\"twitter\":\"TIIuae\",\"github\":\"\",\"website\":\"https://falconllm.tii.ae/\"}"
+    },
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/FalconLLM"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"FalconLLM\",\"fullName\":\"Falcon LLM TII UAE\",\"communityScore\":112,\"organizations\":[\"tiiuae\"],\"models\":null,\"datasets\":null,\"num_followers\":92,\"twitter\":\"TIIuae\",\"github\":\"\",\"website\":\"https://falconllm.tii.ae/\"}"
+    },
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/FalconLLM"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"FalconLLM\",\"fullName\":\"Falcon LLM TII UAE\",\"communityScore\":112,\"organizations\":[\"tiiuae\"],\"models\":null,\"datasets\":null,\"num_followers\":92,\"twitter\":\"TIIuae\",\"github\":\"\",\"website\":\"https://falconllm.tii.ae/\"}"
+    },
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/FalconLLM"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"FalconLLM\",\"fullName\":\"Falcon LLM TII UAE\",\"communityScore\":112,\"organizations\":[\"tiiuae\"],\"models\":null,\"datasets\":null,\"num_followers\":92,\"twitter\":\"TIIuae\",\"github\":\"\",\"website\":\"https://falconllm.tii.ae/\"}"
+    },
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/FalconLLM"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"FalconLLM\",\"fullName\":\"Falcon LLM TII UAE\",\"communityScore\":112,\"organizations\":[\"tiiuae\"],\"models\":null,\"datasets\":null,\"num_followers\":92,\"twitter\":\"TIIuae\",\"github\":\"\",\"website\":\"https://falconllm.tii.ae/\"}"
+    },
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/olivierdehaene"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"olivierdehaene\",\"fullName\":\"Olivier Dehaene\",\"communityScore\":53,\"organizations\":[\"huggingface\",\"bigscience\",\"hf-internal-testing\",\"text-generation-inference\",\"OpenAssistant\",\"HuggingFaceM4\",\"trl-lib\",\"bigcode\",\"HuggingFaceH4\",\"open-source-metrics\",\"CarperAI\",\"gg-hf\",\"mx-test\",\"hsramall\",\"yet-another-org\",\"llhf\",\"sllhf\",\"hugging-quants\",\"blhf\",\"kmhf\",\"s0409\"],\"models\":[\"olivierdehaene/optimized-santacoder\"],\"datasets\":[\"olivierdehaene/xkcd\"],\"num_followers\":77,\"twitter\":\"\",\"github\":\"olivierdehaene\",\"website\":\"\"}"
+    },
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/FalconLLM"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"FalconLLM\",\"fullName\":\"Falcon LLM TII UAE\",\"communityScore\":112,\"organizations\":[\"tiiuae\"],\"models\":null,\"datasets\":null,\"num_followers\":92,\"twitter\":\"TIIuae\",\"github\":\"\",\"website\":\"https://falconllm.tii.ae/\"}"
+    },
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/FalconLLM"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"FalconLLM\",\"fullName\":\"Falcon LLM TII UAE\",\"communityScore\":112,\"organizations\":[\"tiiuae\"],\"models\":null,\"datasets\":null,\"num_followers\":92,\"twitter\":\"TIIuae\",\"github\":\"\",\"website\":\"https://falconllm.tii.ae/\"}"
+    },
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/FalconLLM"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"FalconLLM\",\"fullName\":\"Falcon LLM TII UAE\",\"communityScore\":112,\"organizations\":[\"tiiuae\"],\"models\":null,\"datasets\":null,\"num_followers\":92,\"twitter\":\"TIIuae\",\"github\":\"\",\"website\":\"https://falconllm.tii.ae/\"}"
+    },
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/victor"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"victor\",\"fullName\":\"Victor Mustar\",\"communityScore\":528,\"organizations\":[\"huggingface\",\"google\",\"competitions\",\"safetensors\",\"21rnn\",\"spaces-explorers\",\"text-generation-inference\",\"CVPR\",\"SpacesExamples\",\"huggingchat\",\"webhooks-explorers\",\"lora-library\",\"scanned-tokens\",\"huggingface-projects\",\"hf-admins\",\"open-source-metrics\",\"sd-dreambooth-library\",\"coreml-projects\",\"temp-org\",\"blog-explorers\",\"Mustarz\",\"open-llm-leaderboard\",\"enterprise-explorers\",\"the-collectionists\",\"zero-gpu-explorers\",\"HFTools\",\"TstOrg141\",\"stable-video-bench\",\"social-post-explorers\",\"dev-mode-explorers\",\"llhf\",\"sllhf\"],\"models\":[\"victor/blockquote\",\"victor/contemporarink\",\"victor/xwccxw\",\"victor/MSpaint\",\"victor/trained-flux-lora\",\"victor/caca\",\"victor/test\",\"victor/aa\",\"victor/toto-1234\",\"victor/TinyLlama-1.1B-Chat-v1.0-Q4_K_M-GGUF\",\"victor/test23\",\"victor/OOO\",\"victor/gated-test\",\"victor/ch\",\"victor/ch-art\",\"victor/text-to-video-test\",\"victor/text-custom-card-component\",\"victor/outicon-2\",\"victor/CodeLlama-34b-Instruct-hf\",\"victor/test-model-4\",\"victor/outicon\",\"victor/t4vx-oxnj-9uu2-0\",\"victor/aze\",\"victor/test-12345678910\",\"victor/ett\",\"victor/autotrain-satellite-image-classification-40975105875\",\"victor/ipynb-test\",\"victor/distilbert-base-uncased\",\"victor/test-model-3\",\"victor/autotrain-victormautotraindreambooth-FS8JGUBRYX-2450175922\",\"victor/1312312\",\"victor/titanic-survival-with-ml-console\",\"victor/autotrain-donut-vs-croissant-1417653460\",\"victor/test2\",\"victor/autonlp-imdb-reviews-sentiment-329982\",\"victor/animals-classifier\"],\"datasets\":[\"victor/mutti-product-pictures\",\"victor/random-images\",\"victor/misc\",\"victor/hf-spaces-with-descriptions\",\"victor/figma-push-to-dataset\",\"victor/figma-export-dataset\",\"victor/outicon\",\"victor/design-stuff\",\"victor/diffusers-models\",\"victor/assets\",\"victor/autonlp-data-tweet-sentiment\",\"victor/autotrain-data-donut-vs-croissant\",\"victor/autotrain-data-satellite-image-classification\",\"victor/synthetic-donuts\",\"victor/autotrain-data-image-classification-test-18\",\"victor/real-or-fake-fake-jobposting-prediction\",\"victor/titanic\",\"victor/autotrain-data-test-21312\",\"victor/autonlp-data-imdb-reviews-sentiment\"],\"num_followers\":2516,\"twitter\":\"victormustar\",\"github\":\"\",\"website\":\"\"}"
+    },
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/FalconLLM"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"FalconLLM\",\"fullName\":\"Falcon LLM TII UAE\",\"communityScore\":112,\"organizations\":[\"tiiuae\"],\"models\":null,\"datasets\":null,\"num_followers\":92,\"twitter\":\"TIIuae\",\"github\":\"\",\"website\":\"https://falconllm.tii.ae/\"}"
+    },
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/julien-c"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"julien-c\",\"fullName\":\"Julien Chaumond\",\"communityScore\":1675,\"organizations\":[\"huggingface\",\"safetensors\",\"notebooks-explorers\",\"nbconvert-internal\",\"bigscience\",\"spaces-explorers\",\"flax-community\",\"templates\",\"huggingface-course\",\"giskardai\",\"ph-snps\",\"text-generation-inference\",\"amazon-sagemaker-community\",\"training-transformers-together\",\"huggingchat\",\"AtmosBank\",\"godot-demo\",\"pyodide-demo\",\"huggingfacejs\",\"webhooks-explorers\",\"Classroom-workshop\",\"hf-maintainers\",\"trl-lib\",\"SFEvent\",\"scanned-tokens\",\"huggingface-legal\",\"language-tools\",\"sd-concepts-library\",\"teven-projects\",\"banana-projects\",\"exbert-project\",\"blog-explorers\",\"eu-test\",\"Hacktoberfest23\",\"HuggingPartyParis\",\"enterprise-explorers\",\"zero-gpu-explorers\",\"openai-community\",\"xlnet\",\"albert\",\"transfo-xl\",\"FacebookAI\",\"distilbert\",\"google-bert\",\"google-t5\",\"choosealicense\",\"social-post-explorers\",\"dev-mode-explorers\",\"test-2\",\"pbdeeplinks\",\"paris-ai-running-club\",\"kmhf\",\"HF-Party\",\"nerdyface\"],\"models\":[\"julien-c/fofr-sdxl-emoji\",\"julien-c/git-theta-safetensors\",\"julien-c/git-theta-small-pytorch\",\"julien-c/reactiongif-roberta\",\"julien-c/Mistral-7B-Neural-Story-mix\",\"julien-c/wine-quality\",\"julien-c/autotrain-dreambooth-marsupilami\",\"julien-c/test-upload-speed\",\"julien-c/bert-base-uncased-duplicate\",\"julien-c/EsperBERTo-small-pos\",\"julien-c/onnx-opus-mt-en-eo\",\"julien-c/EsperBERTo-small\",\"julien-c/distilbert-sagemaker-1609802168\",\"julien-c/avocado-prices\",\"julien-c/pokemon-predict-hp\",\"julien-c/hotdog-not-hotdog\",\"julien-c/skops-digits\",\"julien-c/gpt2-from-colab\",\"julien-c/ColabTest\",\"julien-c/fasttext-language-id\",\"julien-c/DPRNNTasNet-ks16_WHAM_sepclean\",\"julien-c/dummy-for-flat\",\"julien-c/distilbert-feature-extraction\",\"julien-c/tensorboard-traces\",\"julien-c/dummy-unknown\",\"julien-c/dummy-model-from-colab\",\"julien-c/dummy-diff-tokenizer\",\"julien-c/bert-xsmall-dummy\",\"julien-c/kan-bayashi-jsut_tts_train_tacotron2_ja\",\"julien-c/timm-dpn92\",\"julien-c/roberta-threejs\",\"julien-c/mini_an4_asr_train_raw_bpe_valid\",\"julien-c/distilbert-sagemaker-1609801242\",\"julien-c/distilbert-sagemaker-1609799155\",\"julien-c/distilbert-sagemaker-1609798709\",\"julien-c/kan-bayashi_csmsc_tacotron2\",\"julien-c/kan-bayashi-jsut_tts_train_tacotron2\",\"julien-c/ljspeech_tts_train_tacotron2_raw_phn_tacotron_g2p_en_no_space_train\",\"julien-c/policy-distilbert-7d\",\"julien-c/voice-activity-detection\",\"julien-c/flair-ner\",\"julien-c/flair-de-ner\",\"julien-c/t5-3b-fork2\",\"julien-c/t5-3b-fork\"],\"datasets\":[\"julien-c/vangogh\",\"julien-c/a-royal-blue-throne\",\"julien-c/tweets\",\"julien-c/persistent-space-dataset\",\"julien-c/autotrain-dreambooth-marsupilami-data\",\"julien-c/kaggle-rounakbanik-pokemon\",\"julien-c/kaggle-hugomathien-soccer\",\"julien-c/titanic-survival\",\"julien-c/reactiongif\",\"julien-c/label-studio-my-dogs\",\"julien-c/autotrain-data-dog-classifiers\",\"julien-c/impressionists\",\"julien-c/dummy-dataset-from-colab\"],\"num_followers\":1557,\"twitter\":\"\",\"github\":\"julien-c\",\"website\":\"https://huggingface.co\"}"
+    },
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/FalconLLM"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"FalconLLM\",\"fullName\":\"Falcon LLM TII UAE\",\"communityScore\":112,\"organizations\":[\"tiiuae\"],\"models\":null,\"datasets\":null,\"num_followers\":92,\"twitter\":\"TIIuae\",\"github\":\"\",\"website\":\"https://falconllm.tii.ae/\"}"
+    },
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/FalconLLM"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"FalconLLM\",\"fullName\":\"Falcon LLM TII UAE\",\"communityScore\":112,\"organizations\":[\"tiiuae\"],\"models\":null,\"datasets\":null,\"num_followers\":92,\"twitter\":\"TIIuae\",\"github\":\"\",\"website\":\"https://falconllm.tii.ae/\"}"
+    },
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/FalconLLM"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"FalconLLM\",\"fullName\":\"Falcon LLM TII UAE\",\"communityScore\":112,\"organizations\":[\"tiiuae\"],\"models\":null,\"datasets\":null,\"num_followers\":92,\"twitter\":\"TIIuae\",\"github\":\"\",\"website\":\"https://falconllm.tii.ae/\"}"
+    },
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/pcuenq"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"pcuenq\",\"fullName\":\"Pedro Cuenca\",\"communityScore\":1134,\"organizations\":[\"huggingface\",\"google\",\"sentence-transformers\",\"diffusers\",\"flax-community\",\"hf-internal-testing\",\"dalle-mini\",\"ControlNet-1-1-preview\",\"somosnlp-hackathon-2022\",\"somosnlp\",\"huggingfacejs\",\"apple\",\"fusing\",\"SFEvent\",\"huggingface-projects\",\"CompVis\",\"compvis-community\",\"sd-diffusers-pipelines-library\",\"coreml-projects\",\"local-code-llms\",\"codellama\",\"UniverseTBD\",\"genaibook\",\"iccv23-diffusers-demo\",\"coremlfiles\",\"HuggingPartyParis\",\"adept-hf-collab\",\"enterprise-explorers\",\"latent-consistency\",\"ttseval\",\"ggml-org\",\"gv-hf\",\"LocalLLaMA\",\"gg-hf\",\"argmaxinc\",\"mistralai-eap\",\"qllsgama\",\"mlx-community\",\"ibm-granite\",\"on-device-squad\",\"TTS-AGI\",\"social-post-explorers\",\"corenet-community\",\"hsramall\",\"diffusers-internal-dev\",\"gg-tt\",\"discord-community\",\"llhf\",\"sllhf\",\"lbhf\",\"hugging-quants\",\"meta-llama\",\"kmhf\",\"nltpt\",\"s0409\",\"mt-metrics\",\"dummyosan\",\"orgpcuenq\",\"metavision\",\"mv11\",\"qrias\"],\"models\":[\"pcuenq/misc-examples\",\"pcuenq/TinyLlama-1.1B-Chat-v1.0-Q4-mlx\",\"pcuenq/TinyLlama-1.1B-Chat-v1.0-Q8-mlx\",\"pcuenq/TinyLlama-1.1B-Chat-v1.0-mlx\",\"pcuenq/ministral-tokenizer-wip-untested\",\"pcuenq/Llama-3.2-1B-Q4_K_M-GGUF\",\"pcuenq/t\",\"pcuenq/Llama-3.1-8B-Q4_K_M-GGUF\",\"pcuenq/Llama-3.2-1B-Instruct-Q8_0-GGUF\",\"pcuenq/Qwen2.5-0.5B-Instruct-with-new-merges-serialization-Q8_0-GGUF\",\"pcuenq/Qwen2.5-0.5B-Instruct-with-new-merges-serialization\",\"pcuenq/lora\",\"pcuenq/Llama-3.2-1B-Instruct-tokenizer\",\"pcuenq/llama-3.2-smol-tokenizer\",\"pcuenq/coreml-depth-anything-v2-small\",\"pcuenq/classifier-chapter4\",\"pcuenq/sam-2-studio\",\"pcuenq/mdm-flickr-1024\",\"pcuenq/mdm-flickr-256\",\"pcuenq/mdm-flickr-64\",\"pcuenq/gemma-tokenizer\",\"pcuenq/mistral-0.3-tokenizer\",\"pcuenq/my-food-model\",\"pcuenq/codegemma-7b-it-tmp\",\"pcuenq/models-tmp\",\"pcuenq/tiny-gemma-test5\",\"pcuenq/tiny-gemma-test4\",\"pcuenq/tiny-gemma-test3\",\"pcuenq/tiny-gemma-tes2t\",\"pcuenq/tiny-gemma-test2\",\"pcuenq/tiny-gemma-test\",\"pcuenq/tiny-gemma\",\"pcuenq/TinyLlama-1.1B-Chat-v1.0-Q4_K_M-GGUF\",\"pcuenq/Mistral-7B-v0.1-gguf\",\"pcuenq/tiny-llama-chat-mlx\",\"pcuenq/My-Mistral-7B-v0.1-4bit\",\"pcuenq/siglip-base-patch16-224\",\"pcuenq/Mistral-7B-Neural-Story-mix\",\"pcuenq/lcm_sdxl_fused\",\"pcuenq/Llama-2-7b-chat-gguf\",\"pcuenq/falcon-7b-instruct-gguf\",\"pcuenq/ddpm-ema-flowers-64\",\"pcuenq/stable-diffusion-xl-base-1.0-flax\",\"pcuenq/trainer-chapter\",\"pcuenq/distilgpt2-coreml-tests\",\"pcuenq/stable-diffusion-xl-refiner-1.0-flax\",\"pcuenq/recipes\",\"pcuenq/test-llama-tokenizer\",\"pcuenq/falcon-7b-instruct-transformers\",\"pcuenq/falcon-7b-instruct\",\"pcuenq/coreml-openjourney-v4\",\"pcuenq/RedPajama-3B-instruct-lora\",\"pcuenq/m2m100_418M\",\"pcuenq/instruct-gpt-j\",\"pcuenq/distilgpt2\",\"pcuenq/stable-diffusion-v1-4\",\"pcuenq/jh_dreambooth_1000\",\"pcuenq/k-upscaler\",\"pcuenq/circles\",\"pcuenq/pokemon-lora\",\"pcuenq/osanseviero-t5\",\"pcuenq/mobilevit-small\",\"pcuenq/bert-base-uncased-copy\",\"pcuenq/distilbert-base-uncased\",\"pcuenq/distilbert-base-uncased-coreml\",\"pcuenq/sd-vae-ft-mse-flax\",\"pcuenq/gists\",\"pcuenq/v14-variants\",\"pcuenq/7nation-crop\",\"pcuenq/7nation-random\",\"pcuenq/coreml-stable-diffusion-1-4\",\"pcuenq/coreml-small-stable-diffusion-v0\",\"pcuenq/Arroz_con_cosas\",\"pcuenq/ddpm-fashion-100\",\"pcuenq/ddpm-faces-100\",\"pcuenq/7nation-crop-1600\",\"pcuenq/7nationriff\",\"pcuenq/coreml-stable-diffusion-2-1-base\",\"pcuenq/coreml-stable-diffusion-v1-5\",\"pcuenq/coreml-stable-diffusion-2-base\",\"pcuenq/Paella\",\"pcuenq/ddpm-face-latents-16-100\",\"pcuenq/debug-training-output\",\"pcuenq/ddpm-ema-faces-64-50\",\"pcuenq/ddpm-ema-cifar\",\"pcuenq/ddpm-ema-pets-64-repeat\",\"pcuenq/ddpm-ema-pets-64-no-tcond\",\"pcuenq/ddpm-ema-pets-64\",\"pcuenq/lpips-jax\",\"pcuenq/wav2vec2-large-xlsr-53-eu\",\"pcuenq/wav2vec2-large-xlsr-53-es\"],\"datasets\":[\"pcuenq/coco-semantic-segmentation\",\"pcuenq/misc-assets\",\"pcuenq/media\",\"pcuenq/tests\",\"pcuenq/amused_mps\",\"pcuenq/gists\",\"pcuenq/recipe-images\",\"pcuenq/face_synthetics_spiga\",\"pcuenq/face_synthetics_spiga_smol\",\"pcuenq/face_synthetics\",\"pcuenq/face_synthetics_smol\",\"pcuenq/lsun-bedrooms\",\"pcuenq/repro\",\"pcuenq/CelebA-faces-cropped-128-encoded\",\"pcuenq/stable-diffusion-flagging\",\"pcuenq/oxford-pets\"],\"num_followers\":426,\"twitter\":\"pcuenq\",\"github\":\"pcuenca\",\"website\":\"\"}"
+    },
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/slippylolo"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"slippylolo\",\"fullName\":\"Julien Launay\",\"communityScore\":10,\"organizations\":[\"hf-extreme-scale\",\"h4-red-team\"],\"models\":null,\"datasets\":null,\"num_followers\":22,\"twitter\":\"slippylolo\",\"github\":\"slippylolo\",\"website\":\"https://lolo.science\"}"
+    },
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/slippylolo"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"slippylolo\",\"fullName\":\"Julien Launay\",\"communityScore\":10,\"organizations\":[\"hf-extreme-scale\",\"h4-red-team\"],\"models\":null,\"datasets\":null,\"num_followers\":22,\"twitter\":\"slippylolo\",\"github\":\"slippylolo\",\"website\":\"https://lolo.science\"}"
+    },
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/slippylolo"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"slippylolo\",\"fullName\":\"Julien Launay\",\"communityScore\":10,\"organizations\":[\"hf-extreme-scale\",\"h4-red-team\"],\"models\":null,\"datasets\":null,\"num_followers\":22,\"twitter\":\"slippylolo\",\"github\":\"slippylolo\",\"website\":\"https://lolo.science\"}"
+    },
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/slippylolo"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"slippylolo\",\"fullName\":\"Julien Launay\",\"communityScore\":10,\"organizations\":[\"hf-extreme-scale\",\"h4-red-team\"],\"models\":null,\"datasets\":null,\"num_followers\":22,\"twitter\":\"slippylolo\",\"github\":\"slippylolo\",\"website\":\"https://lolo.science\"}"
+    },
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/slippylolo"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"slippylolo\",\"fullName\":\"Julien Launay\",\"communityScore\":10,\"organizations\":[\"hf-extreme-scale\",\"h4-red-team\"],\"models\":null,\"datasets\":null,\"num_followers\":22,\"twitter\":\"slippylolo\",\"github\":\"slippylolo\",\"website\":\"https://lolo.science\"}"
+    },
+    {
+      "subjects": [
+        "tiiuae-falcon-7b-instruct-6447714d3411a0902bad9607"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "https://huggingface.co/DanielHesslow"
+        }
+      },
+      "timestamp": "24-11-08_15:52:23",
+      "text": "{\"username\":\"DanielHesslow\",\"fullName\":\"Daniel Hesslow\",\"communityScore\":8,\"organizations\":[\"bigscience\",\"hf-extreme-scale\"],\"models\":[\"DanielHesslow/Mistral_First2Layers\",\"DanielHesslow/test_metrics\",\"DanielHesslow/RITA_tokenizer\"],\"datasets\":[\"DanielHesslow/SwissProt-EC-leaf_upt_again\",\"DanielHesslow/SwissProt-EC-leaf_upd\",\"DanielHesslow/SwissProt-GO\",\"DanielHesslow/SwissProt-Pfam\",\"DanielHesslow/SwissProt-EC\"],\"num_followers\":14,\"twitter\":\"DanielHesslow\",\"github\":\"\",\"website\":\"\"}"
+    }
+  ]
+}
