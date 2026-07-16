@@ -8,7 +8,7 @@
     "tools": {
       "components": [
         {
-          "type": "machine-learning-model",
+          "type": "application",
           "author": "Manifest Cyber",
           "publisher": "Manifest Cyber",
           "name": "aibom-gen",
@@ -79,7 +79,7 @@
         },
         {
           "name": "softwareRequiredForExecution",
-          "value": "false"
+          "value": "true"
         },
         {
           "name": "intendedUse",

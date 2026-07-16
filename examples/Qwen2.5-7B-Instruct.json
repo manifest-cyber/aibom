@@ -8,7 +8,7 @@
     "tools": {
       "components": [
         {
-          "type": "machine-learning-model",
+          "type": "application",
           "author": "Manifest Cyber",
           "publisher": "Manifest Cyber",
           "name": "aibom-gen",
@@ -111,7 +111,7 @@
         },
         {
           "name": "softwareRequiredForExecution",
-          "value": "false"
+          "value": "true"
         },
         {
           "name": "intendedUse",
@@ -235,7 +235,7 @@
           "licenses": [
             {
               "license": {
-                "id": "CC BY-SA 4.0"
+                "id": "CC-BY-SA-4.0"
               }
             }
           ],
@@ -281,7 +281,7 @@
           "licenses": [
             {
               "license": {
-                "id": "CC BY 4.0"
+                "id": "CC-BY-4.0"
               }
             }
           ],
@@ -366,7 +366,7 @@
           "licenses": [
             {
               "license": {
-                "id": "CC BY 4.0"
+                "id": "CC-BY-4.0"
               }
             }
           ],
@@ -529,7 +529,7 @@
           "licenses": [
             {
               "license": {
-                "id": "CC BY-SA 4.0"
+                "id": "CC-BY-SA-4.0"
               }
             }
           ],
@@ -809,7 +809,7 @@
           "licenses": [
             {
               "license": {
-                "id": "CC BY-SA 4.0"
+                "id": "CC-BY-SA-4.0"
               }
             }
           ],
@@ -855,7 +855,7 @@
           "licenses": [
             {
               "license": {
-                "id": "CC BY 4.0"
+                "id": "CC-BY-4.0"
               }
             }
           ],
@@ -901,7 +901,7 @@
           "licenses": [
             {
               "license": {
-                "id": "CC BY 4.0"
+                "id": "CC-BY-4.0"
               }
             }
           ],
@@ -947,7 +947,7 @@
           "licenses": [
             {
               "license": {
-                "id": "CC BY 4.0"
+                "id": "CC-BY-4.0"
               }
             }
           ],
@@ -1436,7 +1436,7 @@
           "licenses": [
             {
               "license": {
-                "id": "CC BY 4.0"
+                "id": "CC-BY-4.0"
               }
             }
           ],
@@ -1638,7 +1638,7 @@
           "licenses": [
             {
               "license": {
-                "id": "CC BY-SA 4.0"
+                "id": "CC-BY-SA-4.0"
               }
             }
           ],
