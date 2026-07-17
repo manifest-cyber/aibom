@@ -1,0 +1,287 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:533f4ee1-c9fa-4610-9d3a-1f7edc8bac7e",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-10-27T16:50:14Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "Manifest Cyber",
+          "publisher": "Manifest Cyber",
+          "name": "aibom-gen",
+          "version": "0.1.0-alpha.10",
+          "description": "Email info@manifestcyber.com for more information about this tool."
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "black-forest-labs-flux.1-dev-66aaa908fc35e079a941470d",
+      "type": "machine-learning-model",
+      "supplier": {
+        "name": "black-forest-labs"
+      },
+      "name": "black-forest-labs/FLUX.1-dev",
+      "version": "3de623fc3c33e44ffbe2bad470d0f45bccf2eb21",
+      "licenses": [
+        {
+          "license": {
+            "name": "FLUX.1-dev Non-Commercial License"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+          "type": "model-card"
+        },
+        {
+          "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/black-forest-labs/flux",
+          "type": "vcs"
+        },
+        {
+          "url": "https://blackforestlabs.ai/announcing-black-forest-labs/",
+          "type": "documentation"
+        }
+      ],
+      "properties": [
+        {
+          "name": "createdAt",
+          "value": "2024-07-31T21:13:44.000Z"
+        },
+        {
+          "name": "lastModified",
+          "value": "2025-06-27T16:22:19.000Z"
+        },
+        {
+          "name": "downloads",
+          "value": "1572554"
+        },
+        {
+          "name": "likes",
+          "value": "11659"
+        },
+        {
+          "name": "libraryName",
+          "value": "diffusers"
+        },
+        {
+          "name": "tags",
+          "value": "diffusers, safetensors, text-to-image, image-generation, flux, en, license:other, endpoints_compatible, diffusers:FluxPipeline, region:us"
+        },
+        {
+          "name": "softwareRequiredForExecution",
+          "value": "true"
+        },
+        {
+          "name": "intendedUse",
+          "value": "Generated outputs can be used for personal, scientific, and commercial purposes, as specified in the FLUX.1-dev Non-Commercial License."
+        },
+        {
+          "name": "outOfScopeUse",
+          "value": "Prohibited under the license: illegal activity, child sexual abuse material, disinformation, non-consensual intimate imagery, harassment and bullying, and automated decision-making that adversely affects an individual's legal rights."
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": ".gitattributes-25-10-27_16:50:14",
+          "type": "file",
+          "name": ".gitattributes"
+        },
+        {
+          "bom-ref": "license.md-25-10-27_16:50:14",
+          "type": "file",
+          "name": "LICENSE.md"
+        },
+        {
+          "bom-ref": "readme.md-25-10-27_16:50:14",
+          "type": "file",
+          "name": "README.md"
+        },
+        {
+          "bom-ref": "ae.safetensors-25-10-27_16:50:14",
+          "type": "file",
+          "name": "ae.safetensors"
+        },
+        {
+          "bom-ref": "dev_grid.jpg-25-10-27_16:50:14",
+          "type": "file",
+          "name": "dev_grid.jpg"
+        },
+        {
+          "bom-ref": "flux1-dev.safetensors-25-10-27_16:50:14",
+          "type": "file",
+          "name": "flux1-dev.safetensors"
+        },
+        {
+          "bom-ref": "model_index.json-25-10-27_16:50:14",
+          "type": "file",
+          "name": "model_index.json"
+        },
+        {
+          "bom-ref": "scheduler-scheduler_config.json-25-10-27_16:50:14",
+          "type": "file",
+          "name": "scheduler/scheduler_config.json"
+        },
+        {
+          "bom-ref": "text_encoder-config.json-25-10-27_16:50:14",
+          "type": "file",
+          "name": "text_encoder/config.json"
+        },
+        {
+          "bom-ref": "text_encoder-model.safetensors-25-10-27_16:50:14",
+          "type": "file",
+          "name": "text_encoder/model.safetensors"
+        },
+        {
+          "bom-ref": "text_encoder_2-config.json-25-10-27_16:50:14",
+          "type": "file",
+          "name": "text_encoder_2/config.json"
+        },
+        {
+          "bom-ref": "text_encoder_2-model-00001-of-00002.safetensors-25-10-27_16:50:14",
+          "type": "file",
+          "name": "text_encoder_2/model-00001-of-00002.safetensors"
+        },
+        {
+          "bom-ref": "text_encoder_2-model-00002-of-00002.safetensors-25-10-27_16:50:14",
+          "type": "file",
+          "name": "text_encoder_2/model-00002-of-00002.safetensors"
+        },
+        {
+          "bom-ref": "text_encoder_2-model.safetensors.index.json-25-10-27_16:50:14",
+          "type": "file",
+          "name": "text_encoder_2/model.safetensors.index.json"
+        },
+        {
+          "bom-ref": "tokenizer-merges.txt-25-10-27_16:50:14",
+          "type": "file",
+          "name": "tokenizer/merges.txt"
+        },
+        {
+          "bom-ref": "tokenizer-special_tokens_map.json-25-10-27_16:50:14",
+          "type": "file",
+          "name": "tokenizer/special_tokens_map.json"
+        },
+        {
+          "bom-ref": "tokenizer-tokenizer_config.json-25-10-27_16:50:14",
+          "type": "file",
+          "name": "tokenizer/tokenizer_config.json"
+        },
+        {
+          "bom-ref": "tokenizer-vocab.json-25-10-27_16:50:14",
+          "type": "file",
+          "name": "tokenizer/vocab.json"
+        },
+        {
+          "bom-ref": "tokenizer_2-special_tokens_map.json-25-10-27_16:50:14",
+          "type": "file",
+          "name": "tokenizer_2/special_tokens_map.json"
+        },
+        {
+          "bom-ref": "tokenizer_2-spiece.model-25-10-27_16:50:14",
+          "type": "file",
+          "name": "tokenizer_2/spiece.model"
+        },
+        {
+          "bom-ref": "tokenizer_2-tokenizer.json-25-10-27_16:50:14",
+          "type": "file",
+          "name": "tokenizer_2/tokenizer.json"
+        },
+        {
+          "bom-ref": "tokenizer_2-tokenizer_config.json-25-10-27_16:50:14",
+          "type": "file",
+          "name": "tokenizer_2/tokenizer_config.json"
+        },
+        {
+          "bom-ref": "transformer-config.json-25-10-27_16:50:14",
+          "type": "file",
+          "name": "transformer/config.json"
+        },
+        {
+          "bom-ref": "transformer-diffusion_pytorch_model-00001-of-00003.safetensors-25-10-27_16:50:14",
+          "type": "file",
+          "name": "transformer/diffusion_pytorch_model-00001-of-00003.safetensors"
+        },
+        {
+          "bom-ref": "transformer-diffusion_pytorch_model-00002-of-00003.safetensors-25-10-27_16:50:14",
+          "type": "file",
+          "name": "transformer/diffusion_pytorch_model-00002-of-00003.safetensors"
+        },
+        {
+          "bom-ref": "transformer-diffusion_pytorch_model-00003-of-00003.safetensors-25-10-27_16:50:14",
+          "type": "file",
+          "name": "transformer/diffusion_pytorch_model-00003-of-00003.safetensors"
+        },
+        {
+          "bom-ref": "transformer-diffusion_pytorch_model.safetensors.index.json-25-10-27_16:50:14",
+          "type": "file",
+          "name": "transformer/diffusion_pytorch_model.safetensors.index.json"
+        },
+        {
+          "bom-ref": "vae-config.json-25-10-27_16:50:14",
+          "type": "file",
+          "name": "vae/config.json"
+        },
+        {
+          "bom-ref": "vae-diffusion_pytorch_model.safetensors-25-10-27_16:50:14",
+          "type": "file",
+          "name": "vae/diffusion_pytorch_model.safetensors"
+        }
+      ],
+      "modelCard": {
+        "modelParameters": {
+          "task": "text-to-image",
+          "inputs": [
+            {
+              "format": "text"
+            }
+          ],
+          "outputs": [
+            {
+              "format": "image"
+            }
+          ]
+        },
+        "considerations": {
+          "technicalLimitations": [
+            "Not designed to provide factual information.",
+            "Prompt following varies depending on prompting style."
+          ],
+          "ethicalConsiderations": [
+            {
+              "name": "May amplify existing societal biases."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bom-ref": "diffusers-lib",
+      "type": "library",
+      "name": "diffusers"
+    },
+    {
+      "bom-ref": "pytorch-lib",
+      "type": "library",
+      "name": "PyTorch"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "black-forest-labs-flux.1-dev-66aaa908fc35e079a941470d",
+      "dependsOn": [
+        "diffusers-lib",
+        "pytorch-lib"
+      ]
+    }
+  ]
+}
